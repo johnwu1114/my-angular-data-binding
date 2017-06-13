@@ -1,13 +1,13 @@
 This repository is sample code for Angular 4 (Angular 2) SPA.  
 Use the Visual Studio Code to development.  
 
-# Angular 4 教學 - 從頭開始
+# Angular 4 教學 - Data Binding
 
-有不只一位前端工程師問我，為什麼要用 Visual Studio 2017 做為 Angular 4 教學工具，他們又不寫 .NET，所以我重新改用 Visual Studio Code 來做為 Angular 4 的開發工具。  
-本篇將介紹如何開始撰寫 Angular 4 (Angular 2)，包含各項套件的安裝說明及相依關係。
+Angular 透過 Data Binding 讓 TypeScript(Component) 及 HTML(Template) 兩邊互相傳遞資料，Data Binding 的方式有四種。  
+本篇將介紹 Angular 4 的四種 Data Binding 互動。  
 
 Blog：  
-[Angular 4 教學 - 從頭開始](https://blog.johnwu.cc/article/angular-4-教學-從頭開始.html)  
+[Angular 4 教學 - Data Binding](https://blog.johnwu.cc/article/angular-4-教學-data-binding.html)  
 
 ## 說明
 
