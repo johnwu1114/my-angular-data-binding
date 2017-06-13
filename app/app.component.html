@@ -1,1 +1,32 @@
 <h1>This is {{name}} {{version}}</h1>
+
+<table>
+    <tr>
+        <th>方式</th>
+        <th>語法</th>
+        <th>結果</th>
+    </tr>
+    <tr>
+        <td>Interpolation</td>
+        <td ngNonBindable>{{counter}}</td>
+        <td>{{counter}}</td>
+    </tr>
+    <tr>
+        <td>One Way Binding</td>
+        <td ngNonBindable>[ngClass]="'counter-'+counter%3"</td>
+        <td><span [ngClass]="'counter-'+counter%3">css class is counter-{{counter%3}}</span></td>
+    </tr>
+    <tr>
+        <td>Event Binding</td>
+        <td ngNonBindable>(click)="onClickButton()"</td>
+        <td><button (click)="onClickButton()">Hello</button></td>
+    </tr>
+    <tr>
+        <td>Two Way Binding</td>
+        <td ngNonBindable>[(ngModel)]="name"</td>
+        <td>
+            <input type="text" [(ngModel)]="name" /><br> 
+            Name: {{name}}
+        </td>
+    </tr>
+</table>

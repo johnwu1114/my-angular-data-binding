@@ -1,0 +1,21 @@
+table {
+    border: 1px solid black;
+    width: 800px;
+}
+
+td {
+    border: 1px dotted black;
+    min-width: 200px;
+}
+
+.counter-0 {
+    color: red;
+}
+
+.counter-1 {
+    color: green;
+}
+
+.counter-2 {
+    color: blue;
+}
